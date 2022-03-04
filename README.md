@@ -10,3 +10,5 @@ This is an application that contains a single page to practice and demonstrate s
 
 # To-do list:
 A simple javascript program with some functionality built mainly in vanilla js 
+
+![My_image](https://github.com/Shtaiwee1/Web_fund_additional_apps/blob/master/To_do_list/Capture5.PNG)
