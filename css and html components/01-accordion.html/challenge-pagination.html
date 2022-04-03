@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      color: #343a40;
+      line-height: 1;
+      font-weight: 500;
+      /* font-family: sans-serif; */
+    }
+
+    .icon {
+      margin: 20px;
+      width: 16px;
+      height: 16px;
+      color: #087f5b;
+      border: 1px solid #087f5b;
+      border-radius: 50%;
+      padding: 7px;
+      cursor: pointer;
+    }
+
+    .icon:hover {
+      color: white;
+      background-color: #087f5b;
+    }
+
+    p {
+      width: 10px;
+      height: 10px;
+      font-family: ;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p:hover,
+    p:visited {
+      color: white;
+      cursor: pointer;
+      background-color: #087f5b;
+      border-radius: 50%;
+    }
+
+    .pagination {
+      margin-top: 300px;
+      margin-left: 600px;
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dots {
+      padding: 10px;
+      color: #087f5b;
+      width: 16px;
+      height: 16px;
+    }
+
+    .dots:hover {
+      border-radius: 50%;
+      background-color: #087f5b;
+      color: white;
+    }
+
+    .current {
+      color: white;
+      background-color: #087f5b;
+      border-radius: 50%;
+    }
+
+    .numb23 {
+      /* padding-top: 15px; */
+      /* padding-bottom: 15px; */
+    }
+  </style>
+
+  <body>
+    <div class="pagination">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
+      <p>1</p>
+      <p>2</p>
+      <p class="current">3</p>
+      <p>4</p>
+      <p>5</p>
+      <p>6</p>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="dots"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+        />
+      </svg>
+      <p class="numb23">23</p>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon left"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
